@@ -1,0 +1,290 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Merriweather', serif;
+    background-color: #e1e1dd;
+}
+h1{
+    color: #000000;
+    font-size: 75px;
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin-left: 380px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: 4;
+  }
+  
+  @keyframes example {
+    0%   {color:#5E4955; font-family: 'IBM Plex Sans', sans-serif;}
+    25%  {color:#996888; font-family: 'Irish Grover', cursive;}
+    50%  {color:#C99DA3; font-family: 'Libre Baskerville', serif;}
+    75%  {color:#C6DDF0; font-family: 'Poppins', sans-serif;}
+    100% {color:#5E4955; font-family: 'IBM Plex Sans', sans-serif;}
+  }
+#ptitulo{
+    color: black;   
+    font-size: 20px;
+    margin-top: 0;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    border-bottom: 2px solid #c2c2c2;
+    margin-bottom: 0;
+}
+ul li a{
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    font-size: 1.2em;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a:visited{
+    text-decoration: none;
+    color: rgb(165, 85, 85);
+    display: inline-block;
+    font-size: 1.2em;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ul li{
+    list-style: none;
+    
+}
+.menuuu{
+    background-color: #949494;
+    margin-top: 0;
+    padding: 8px;
+    display:inline-block;
+    border-radius: 3px;
+}
+ul li a:hover{
+    color: black;
+    background-color: rgb(167, 166, 166);
+    border-bottom: 3px solid white;
+    font-size: 1.3em;
+}
+ul{
+    list-style: none;
+    margin-top: 5px;
+    list-style:none;
+    align-content: center;
+    text-align: center;
+    align-content: center;
+}
+.menu ul li { display: inline;}
+
+.footer{
+    background-color: #6964643d;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+    padding: 10px;
+    margin: auto;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.658);
+    border-top: 2px solid rgba(0, 0, 0, 0.658);
+}
+.footer a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.footer a:visited{
+    color: rgb(165, 85, 85);
+}
+.footer a:hover{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 1.2em;
+}
+#rodapelogo{
+    justify-content: right;
+    text-align: right;
+    align-content: right;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+.container {
+    display: grid;
+    font-family: 'Libre Baskerville', serif;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "NOT NOT NOT IMG1 NOT2 NOT2"
+      "IMG2 IMG2 IMG2 IMG2 IMG2 IMG2"
+      "NOT3 NOT3 NOT4 NOT4 NOT5 NOT5";
+  }
+.NOT{
+    grid-area: NOT;
+    padding: 8px;
+    margin-left: 8px;
+    word-spacing: normal;
+    line-height: 20px;
+    text-align: justify;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.658);
+    border-right: 2px solid rgba(0, 0, 0, 0.658);
+}
+.continuea{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid gray;
+}
+.continuet{
+    text-decoration: none;
+    color: black;
+}
+.IMG1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: s300px;
+    width: 500px;
+    margin: 10px;
+    background-image: url(vacina-idoso.jpg);
+    background-position: center;
+    background-size: cover; 
+    border-radius: 3px;
+}
+.NOT2{
+    grid-area: NOT2;
+    padding: 8px;
+    margin-right: 8px;
+    text-align: justify;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.658);
+    border-left: 2px solid rgba(0, 0, 0, 0.658);
+}
+.NOT2 img{
+    float: right;
+    width: 150px;
+    height: 150px;
+    border-radius: 3px;
+    margin: 5px;
+}
+.divcega{
+    border: 2px solid #c2c2c2;
+}
+.IMG2{
+    grid-area: IMG2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    margin: auto;
+    background-image: url(contagem-header.png);
+    background-position: center;
+    background-size: cover; 
+    border-radius: 3px;
+}
+.IMG2 p{
+    border: 2px solid rgba(0, 0, 0, 0.658);
+    display: inline-flex;
+}
+.NOT3{
+    grid-area: NOT3;
+    text-align: justify;
+    margin-right: 5px;
+    margin-left: 8px;
+}
+.NOT3 h3{
+    text-align: left;
+}
+span {
+    border-bottom: 3px solid red;
+  }
+.NOT4 img{
+    float: right;
+    width: 150px;
+    height: 150px;
+    border-radius: 3px;
+    margin: 3px;
+}
+.NOT4{
+     grid-area: NOT4;
+     text-align: justify;
+     margin-left: 5px;
+} 
+.NOT4 h3{
+    text-align: left;
+}
+.NOT5{ 
+    grid-area: NOT5; 
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 8px;
+}
+.NOT5 h3{
+    text-align: left;
+}
+.NOT a:hover{
+    color: black;
+    font-size: 1.3em;
+}
+.NOT3 a:hover{
+    color: black;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+.NOT4 a:hover{
+    color: black;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+.NOT5 a:hover{
+    color: black;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+#alt{
+    margin-left: 158px;
+    font-size: 2em;
+    color: black;
+}
+.homem h2{
+    margin-left: 158px;
+    font-size: 1.5em;
+    color: black;
+}
+#video{
+    margin-left: 158px;
+    margin-bottom: 30px;
+}
+.homem p{
+    text-align: justify;
+    margin-left: 160px;
+    margin-right: 150px;
+    line-height: 35px;
+}
+.imghomem img{
+    height: 50%;
+    width: 100% - 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.subtitulo{
+    border-bottom: 2px solid #c2c2c2;
+    justify-content: center;
+    margin: 3px;
+    color: rgb(129, 75, 75);
+}
+#rodapeimg{
+    margin-bottom: 15px;
+}
